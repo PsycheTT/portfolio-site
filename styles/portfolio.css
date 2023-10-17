@@ -1,14 +1,18 @@
 :root {
-  --bluegrey-color: #222831;
+  --darkblue-color: #00204a;
   --grey-color: #2d4059;
   --highlight-color: #ff5722;
   --neutral-color: #eeeeee;
 }
 
+body {
+  background-color: var(--darkblue-color);
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 72px;
-  color: var(--bluegrey-color);
+  color: var(--darkblue-color);
 }
 
 h2,
@@ -17,7 +21,7 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
-  color: var(--bluegrey-color);
+  color: var(--darkblue-color);
   text-align: center;
 }
 
@@ -53,4 +57,17 @@ p {
   border-radius: 5px;
   line-height: 1.5;
   padding: 15px 20px;
+}
+
+.card-section h2 {
+  color: var(--neutral-color);
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 25px;
+  }
 }
