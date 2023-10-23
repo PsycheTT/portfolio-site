@@ -30,6 +30,15 @@ p {
   line-height: 1.5;
 }
 
+.nav {
+  padding: 20px;
+}
+
+.nav li {
+  display: inline;
+  list-style: none;
+}
+
 .hero {
   background-image: url("/images/blue-gradient-background.png");
   background-size: cover;
