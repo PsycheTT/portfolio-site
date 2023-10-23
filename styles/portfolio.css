@@ -30,21 +30,36 @@ p {
   line-height: 1.5;
 }
 
-.nav {
+nav {
   padding: 20px;
 }
 
-.nav li {
+nav li {
   display: inline;
   list-style: none;
 }
 
-.hero {
+nav li.active a,
+nav a:hover {
+  color: var(--highlight-color);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--neutral-color);
+  padding: 1em;
+  font-size: 18px;
+}
+
+.bg-img {
   background-image: url("/images/blue-gradient-background.png");
   background-size: cover;
   background-position: center center;
+}
+
+.hero {
   text-align: center;
-  padding: 175px 20px;
+  padding: 100px 20px;
 }
 
 .hero h1,
@@ -65,6 +80,13 @@ h2 {
   padding: 15px 20px;
 }
 
+.btn-branding:hover {
+  color: var(--highlight-color);
+  background-color: var(--neutral-color);
+  border: 1px solid var(--highlight-color);
+  border-radius: 5px;
+}
+
 .btn-branding-outline {
   font-size: 20px;
   color: var(--highlight-color);
@@ -72,6 +94,11 @@ h2 {
   border-radius: 5px;
   line-height: 1.5;
   padding: 15px 20px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--highlight-color);
+  color: var(--neutral-color);
 }
 
 .card-section h2 {
@@ -88,6 +115,7 @@ h2 {
   margin-top: 50px;
   padding: 50px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .about-hero h1 {
@@ -97,6 +125,10 @@ h2 {
 .about-hero h2 {
   color: var(--highlight-color);
   font-size: 28px;
+}
+
+.about-hero p {
+  text-align: justify;
 }
 
 .text-center {
@@ -117,6 +149,11 @@ h2 {
 
   h3 {
     font-size: 22px;
+  }
+
+  nav li {
+    display: block;
+    text-align: center;
   }
 
   .hero {
