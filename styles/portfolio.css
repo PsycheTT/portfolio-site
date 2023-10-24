@@ -65,6 +65,10 @@ footer {
   padding: 10px;
 }
 
+footer p {
+  color: var(--highlight-color);
+}
+
 footer a.footer-email {
   color: var(--neutral-color);
   font-size: 26px;
@@ -80,7 +84,8 @@ footer a.footer-email {
 
 .hero {
   text-align: center;
-  padding: 50px 20px 50px 20px;
+  padding: 50px 20px;
+  height: 100vh;
 }
 
 .hero h1,
@@ -90,6 +95,15 @@ h2 {
 
 .hero h2 {
   line-height: 2;
+}
+
+.hero-blurb {
+  color: var(--neutral-color);
+  font-size: 30px;
+}
+
+.scroll-icon {
+  opacity: 0.8;
 }
 
 .btn-branding {
@@ -211,6 +225,20 @@ h2 {
   text-decoration: underline;
 }
 
+.wd-info {
+  font-size: 16px;
+  color: var(--neutral-color);
+}
+
+.wd-info a {
+  text-decoration: none;
+}
+
+.wd-info a:hover {
+  text-decoration: underline;
+  color: var(--neutral-color);
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 54px;
@@ -233,7 +261,16 @@ h2 {
   }
 
   .hero {
-    padding: 75px 10px;
+    padding: 25px 10px;
+    height: 100%;
+  }
+
+  .hero-blurb {
+    display: none;
+  }
+
+  .scroll-icon {
+    display: none;
   }
 
   .card {
