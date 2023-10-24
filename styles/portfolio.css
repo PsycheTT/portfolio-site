@@ -139,6 +139,30 @@ h2 {
   border-radius: 5px;
 }
 
+.contact-hero {
+  text-align: center;
+}
+
+.contact-hero h1 {
+  color: var(--neutral-color);
+  font-size: 54px;
+}
+
+.contact-hero h2 {
+  color: var(--neutral-color);
+  font-size: 28px;
+}
+
+.contact-grid {
+  background-color: var(--highlight-color);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.contact-grid .card {
+  padding: 10px;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 54px;
