@@ -161,6 +161,19 @@ h2 {
   border-radius: 5px;
 }
 
+.portfolio-hero {
+  text-align: center;
+}
+
+.portfolio-hero h1 {
+  color: var(--neutral-color);
+  font-size: 54px;
+}
+
+.portfolio-hero p {
+  color: var(--neutral-color);
+}
+
 .contact-hero {
   text-align: center;
 }
