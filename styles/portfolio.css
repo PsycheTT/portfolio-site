@@ -163,6 +163,15 @@ h2 {
   padding: 10px;
 }
 
+.contact-grid a {
+  text-decoration: none;
+  color: var(--darkblue-color);
+}
+
+.contact-grid a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 54px;
