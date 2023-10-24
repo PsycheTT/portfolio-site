@@ -131,7 +131,7 @@ h2 {
   text-align: center;
 }
 
-.about-hero {
+.content-card {
   background-color: var(--neutral-color);
   max-width: 80%;
   margin-top: 50px;
@@ -140,17 +140,17 @@ h2 {
   text-align: center;
 }
 
-.about-hero h1 {
+.content-card h1 {
   font-size: 54px;
 }
 
-.about-hero h2 {
+.content-card h2 {
   color: var(--highlight-color);
   font-size: 28px;
 }
 
-.about-hero p {
-  text-align: justify;
+.content-card p {
+  text-align: left;
 }
 
 .text-center {
@@ -171,6 +171,10 @@ h2 {
 }
 
 .portfolio-hero p {
+  color: var(--neutral-color);
+}
+
+.projects {
   color: var(--neutral-color);
 }
 
